@@ -1,0 +1,63 @@
+/* Page background */
+body{
+  background: linear-gradient(135deg,#eef2f7,#d9e4f5);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Card form */
+.card{
+  border-radius: 12px;
+  border: none;
+}
+
+/* Table styling */
+.table{
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.table th{
+  text-align: center;
+}
+
+.table td{
+  vertical-align: middle;
+}
+
+/* Navbar */
+.navbar{
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+/* Buttons */
+.btn{
+  border-radius: 8px;
+  padding: 6px 14px;
+}
+
+.btn-warning{
+  color: white;
+}
+
+.btn-danger{
+  background: #ff4d4f;
+  border: none;
+}
+
+.btn-danger:hover{
+  background: #d9363e;
+}
+
+/* Center heading */
+.page-title{
+  text-align:center;
+  font-weight:600;
+  margin-bottom:20px;
+}
+
+/* link button */
+.open-link{
+  text-decoration:none;
+  font-weight:500;
+}
